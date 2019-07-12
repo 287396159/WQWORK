@@ -1,0 +1,39 @@
+﻿生成启动时间为 2017/8/21 16:47:50。
+     1>项目“F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\Location_V3.0\Location\Location.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Location.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ListShow.cpp
+         ListShow.cpp
+     1>ListShow.cpp(653): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdlib.h(554) : 参见“wcstombs”的声明
+     1>ListShow.cpp(657): warning C4244: “参数”: 从“DWORD”转换到“u_short”，可能丢失数据
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\Location_V3.0\Release\Location.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\Location_V3.0\Release\Location.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE:NO /IMPLIB:"F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\Location_V3.0\Release\Location.lib" /MACHINE:X86 /SAFESEH Release\Location.res
+         Release\Config.obj
+         Release\ConfigDisplay.obj
+         Release\ConfigServer.obj
+         Release\ConfigWarning.obj
+         Release\ImagePortShow.obj
+         Release\ImageShow.obj
+         Release\Ini.obj
+         Release\ListShow.obj
+         Release\Location.obj
+         Release\LocationDlg.obj
+         Release\OldData.obj
+         Release\OldDataRePlay.obj
+         Release\OldDataTongJi.obj
+         Release\onfigMap.obj
+         Release\SetImagePort.obj
+         Release\SetNet.obj
+         Release\SetPort.obj
+         Release\SetTag.obj
+         Release\stdafx.obj
+         Release\TagOnLine.obj
+         Release\WarningMessage.obj
+         正在生成代码
+         已完成代码的生成
+         Location.vcxproj -> F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\Location_V3.0\Release\Location.exe
+     1>已完成生成项目“F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\Location_V3.0\Location\Location.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:21.47

@@ -1,0 +1,46 @@
+﻿生成启动时间为 2017/7/19 9:46:16。
+     1>项目“F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\SetID_V3.0上位源码\SetID\SetID\SetID.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\定位系统设置软件.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\定位系统设置软件.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DataTypeConverter.cpp mscomm1.cpp SetID.cpp SetIDDlg.cpp SetNewTwoDialog.cpp SetType1.cpp SetType2.cpp SetType3.cpp
+         DataTypeConverter.cpp
+     1>DataTypeConverter.cpp(74): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files\Microsoft Visual Studio 11.0\VC\include\stdio.h(357) : 参见“sprintf”的声明
+         mscomm1.cpp
+         SetID.cpp
+         SetIDDlg.cpp
+         SetNewTwoDialog.cpp
+         SetType1.cpp
+     1>SetType1.cpp(1675): warning C4244: “=”: 从“DWORD”转换到“unsigned short”，可能丢失数据
+     1>SetType1.cpp(1778): warning C4244: “初始化”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>SetType1.cpp(1890): warning C4244: “=”: 从“DWORD”转换到“unsigned short”，可能丢失数据
+         SetType2.cpp
+     1>SetType2.cpp(1449): warning C4244: “=”: 从“DWORD”转换到“unsigned short”，可能丢失数据
+     1>SetType2.cpp(1475): warning C4244: “初始化”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>SetType2.cpp(1587): warning C4244: “=”: 从“DWORD”转换到“unsigned short”，可能丢失数据
+         SetType3.cpp
+     1>SetType3.cpp(166): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>SetType3.cpp(253): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>SetType3.cpp(258): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\SetID.res" SetID.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\SetID_V3.0上位源码\SetID\Release\定位系统设置软件.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Program Files\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\SetID_V3.0上位源码\SetID\Release\定位系统设置软件.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\SetID_V3.0上位源码\SetID\Release\定位系统设置软件.lib" /MACHINE:X86 /SAFESEH Release\SetID.res
+         Release\DataTypeConverter.obj
+         Release\mscomm1.obj
+         Release\SetID.obj
+         Release\SetIDDlg.obj
+         Release\SetNewTwoDialog.obj
+         Release\SetType1.obj
+         Release\SetType2.obj
+         Release\SetType3.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         SetID.vcxproj -> F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\SetID_V3.0上位源码\SetID\Release\定位系统设置软件.exe
+     1>已完成生成项目“F:\微嵌工作资料\与赵（鹏）工合作\定位系统V3.01_20160324\定位系统V3.01_20160324\上位源码\SetID_V3.0上位源码\SetID\SetID\SetID.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.72
