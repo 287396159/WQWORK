@@ -1,0 +1,56 @@
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\bin\Debug\3g_ZTE.exe
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\bin\Debug\3g_ZTE.pdb
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\obj\x86\Debug\_3g_ZTE.Properties.Resources.resources
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.exe
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.pdb
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\obj\x86\Debug\_3g_ZTE.Form1.resources
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\bin\Debug\NPOI.dll
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\bin\Debug\NPOILib.dll
+E:\个人资料备份\c#\test-3g\3g_ZTE\3g_ZTE\bin\Debug\Ionic.Zip.dll
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.exe
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.pdb
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\bin\Debug\3g_ZTE.exe
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\bin\Debug\3g_ZTE.pdb
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\bin\Debug\Ionic.Zip.dll
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\bin\Debug\NPOILib.dll
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\_3g_ZTE.Form1.resources
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\_3g_ZTE.Properties.Resources.resources
+C:\Users\Administrator\Desktop\IJ3G_4ADC_台湾\3G_ZTE 中文\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.exe
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.pdb
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\bin\Debug\3g_ZTE.exe
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\bin\Debug\3g_ZTE.pdb
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\bin\Debug\Ionic.Zip.dll
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\bin\Debug\NPOI.dll
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\bin\Debug\NPOILib.dll
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\_3g_ZTE.Form1.resources
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\_3g_ZTE.Properties.Resources.resources
+F:\微嵌工作资料\与赵（鹏）工合作\应用工程\应用工程\3g_ZTE\3g_ZTE\obj\x86\Debug\3g_ZTE.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\3g_ZTE.exe
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\3g_ZTE.pdb
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\3g_ZTE.exe
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\3g_ZTE.pdb
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\Ionic.Zip.dll
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\NPOILib.dll
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\3g_ZTE.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\_3g_ZTE.Form1.resources
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\_3g_ZTE.Properties.Resources.resources
+C:\Users\Administrator\Desktop\CC2530_3G_4AD_v0102_20170629\CC2530_3G_4AD_v0102_20170629\源码\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\3g_ZTE.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\3g_ZTE.exe
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\3g_ZTE.pdb
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\3g_ZTE.exe
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\3g_ZTE.pdb
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\Ionic.Zip.dll
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\NPOI.dll
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\bin\Debug\NPOILib.dll
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\3g_ZTE.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\_3g_ZTE.Form1.resources
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\_3g_ZTE.Properties.Resources.resources
+F:\微嵌工作资料\与赵（鹏）工合作\3g_ZTE--统一电话号码20170626\3g_ZTE\obj\x86\Debug\3g_ZTE.csproj.GenerateResource.Cache

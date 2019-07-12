@@ -1,0 +1,309 @@
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\obj\Release\CiXinLocation.MainForm.resources
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\obj\Release\CiXinLocation.LostPackForm.resources
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\obj\Release\CiXinLocation.ScourDataForm.resources
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\bin\Release\NODE_Location.exe.config
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\bin\Release\NODE_Location.exe
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\bin\Release\NODE_Location.pdb
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\obj\Release\NODE_Location.exe
+F:\微嵌工作资料\与张富合作\慈心\参考点与节点设备的关系\CiXinLocation\obj\Release\NODE_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\NODE_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\NODE_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\NODE_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\NODE_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\NODE_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\MoveableListLib.dll
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\MoveableListLib.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用2\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\NODE_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\NODE_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\NODE_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\NODE_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\NODE_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\MoveableListLib.dll
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\bin\Release\MoveableListLib.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点设备的关系\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\bin\Release\MoveableListLib.dll
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\bin\Release\MoveableListLib.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\MoveableListLib.CanKaoDianView.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\MoveableListLib.MListItem.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\MoveableListLib.MListItem2.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\MoveableListLib.MoveableList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\MoveableListLib.MoveThreeAbleList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位优化方案\参考点与节点新定位\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\MoveableListLib.CanKaoDianView.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\MoveableListLib.MListItem.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\MoveableListLib.MListItem2.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\MoveableListLib.MoveableList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\MoveableListLib.MoveThreeAbleList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\参考点与节点新定位(无dll版本)\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\MoveableListLib.CanKaoDianView.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\MoveableListLib.MListItem.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\MoveableListLib.MListItem2.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\MoveableListLib.MoveableList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\MoveableListLib.MoveThreeAbleList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.23)\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.CanKaoDianView.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MListItem.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MListItem2.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MoveableList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MoveThreeAbleList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.FormDialog.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.WarnForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.loginForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.Utils.HistoricalTrackForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.CanKaoDianView.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.FormDialog.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.loginForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MListItem.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MListItem2.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MoveableList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MoveThreeAbleList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.Utils.HistoricalTrackForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.WarnForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\2018年新改要求\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.CanKaoDianView.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.FormDialog.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.loginForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MListItem.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MListItem2.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MoveableList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\MoveableListLib.MoveThreeAbleList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.Utils.HistoricalTrackForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\CiXinLocation.WarnForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.1.27 V1.6)\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.CanKaoDianView.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.FormDialog.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.loginForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.MListItem.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.MListItem2.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.MoveableList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.MoveThreeAbleList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.Utils.HistoricalTrackForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.WarnForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.exe.manifest
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.application
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.TrustInfo.xml
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.exe.manifest
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.application
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.MessageAutoClose.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.NODESearchForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.exe.manifest
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.application
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.CanKaoDianView.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.FormDialog.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.loginForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.MessageAutoClose.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.MListItem.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.MListItem2.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.MoveableList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\MoveableListLib.MoveThreeAbleList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.NODESearchForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.Utils.HistoricalTrackForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\CiXinLocation.WarnForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.TrustInfo.xml
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.exe.manifest
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14\物品定位源码(2018.4.8 V1_8\NODE_Location\obj\Release\DMATEK_Location.application
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\bin\Release\DMATEK_Location.exe.config
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\bin\Release\DMATEK_Location.exe.manifest
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\bin\Release\DMATEK_Location.application
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\bin\Release\DMATEK_Location.exe
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\bin\Release\DMATEK_Location.pdb
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\NODE_Location.csprojResolveAssemblyReference.cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.AllViewShow.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\MoveableListLib.CanKaoDianView.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.CanShuSetFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.FormBase.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.FormDialog.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.FormMain.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.LEDCONTROLForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.LocationViewFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.loginForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.MessageAutoClose.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\MoveableListLib.MListItem.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\MoveableListLib.MListItem2.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\MoveableListLib.MoveableList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\MoveableListLib.MoveThreeAbleList.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.NODESearchForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.PortFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.Properties.Resources.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.serchCardFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.SetCanKaoDianFrom.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.Utils.HistoricalTrackForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\CiXinLocation.WarnForm.resources
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\NODE_Location.csproj.GenerateResource.Cache
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\DMATEK_Location.TrustInfo.xml
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\DMATEK_Location.exe.manifest
+F:\微嵌工作资料\与陈（统）工合作\4.2定位灯控项目（物品定位）\新品上位应用3\力丽新品上位应用\力丽上位应用V14，2.1运行版本\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\DMATEK_Location.application
+D:\精准定位app\XW_Project\物品定位（力丽）\物品定位源码，将TCP修改成异步的\NODE_Location\bin\Release\DMATEK_Location.exe.config
+D:\精准定位app\XW_Project\物品定位（力丽）\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\DMATEK_Location.exe
+D:\精准定位app\XW_Project\物品定位（力丽）\物品定位源码，将TCP修改成异步的\NODE_Location\obj\Release\DMATEK_Location.pdb
