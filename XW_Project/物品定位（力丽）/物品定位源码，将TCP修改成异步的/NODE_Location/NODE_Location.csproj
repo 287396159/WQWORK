@@ -1,0 +1,1618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B30C349E-AAE8-4DEC-B10C-9C90F51BE6DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CiXinLocation</RootNamespace>
+    <AssemblyName>DMATEK_Location</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllViewShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllViewShow.Designer.cs">
+      <DependentUpon>AllViewShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bean\CacheFileBean.cs" />
+    <Compile Include="bean\CanKaoDianBean.cs" />
+    <Compile Include="bean\CanKaoDianUpInfo.cs" />
+    <Compile Include="bean\CardBean.cs" />
+    <Compile Include="bean\CardUpDataBean.cs" />
+    <Compile Include="bean\CenJiBean.cs" />
+    <Compile Include="bean\DP_TYPE_LABEL.cs" />
+    <Compile Include="bean\EnumUtils.cs" />
+    <Compile Include="bean\HexFileBean.cs" />
+    <Compile Include="bean\HistoryCardBean.cs" />
+    <Compile Include="bean\HistoryFileDataBean.cs" />
+    <Compile Include="bean\IPIDRessBean.cs" />
+    <Compile Include="bean\NODEBean.cs" />
+    <Compile Include="bean\PeopleBean.cs" />
+    <Compile Include="bean\QuYuBean.cs" />
+    <Compile Include="bean\RestartBean.cs" />
+    <Compile Include="bean\SingleTagBean.cs" />
+    <Compile Include="bean\TagLocationPointBean.cs" />
+    <Compile Include="bean\UDPDATA_IP.cs" />
+    <Compile Include="bean\WarnMessage.cs" />
+    <Compile Include="CanKaoDianView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CanKaoDianView.Designer.cs">
+      <DependentUpon>CanKaoDianView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CanShuSetFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CanShuSetFrom.Designer.cs">
+      <DependentUpon>CanShuSetFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CiXinInterface\CanShuViewInterface.cs" />
+    <Compile Include="CiXinInterface\ComDataInterface.cs" />
+    <Compile Include="CiXinInterface\FileUpdataInterface.cs" />
+    <Compile Include="CiXinInterface\FromBaseInterface.cs" />
+    <Compile Include="CiXinInterface\MainViewInterface.cs" />
+    <Compile Include="control\CanShuSetControl.cs" />
+    <Compile Include="DoubleBufferListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExcelHelper.cs" />
+    <Compile Include="FormDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDialog.Designer.cs">
+      <DependentUpon>FormDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ICSharpCode.SharpZipLib\BZip2\BZip2.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\BZip2\BZip2Constants.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\BZip2\BZip2Exception.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\BZip2\BZip2InputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\BZip2\BZip2OutputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Checksum\Adler32.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Checksum\BZip2Crc.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Checksum\Crc32.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Checksum\IChecksum.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Core\FileSystemScanner.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Core\INameTransform.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Core\IScanFilter.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Core\NameFilter.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Core\PathFilter.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Core\StreamUtils.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Core\WindowsPathUtils.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Encryption\PkzipClassic.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Encryption\ZipAESStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Encryption\ZipAESTransform.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\GZip\GZip.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\GZip\GZipConstants.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\GZip\GZipException.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\GZip\GzipInputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\GZip\GzipOutputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Lzw\LzwConstants.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Lzw\LzwException.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Lzw\LzwInputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\SharpZipBaseException.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Tar\InvalidHeaderException.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Tar\TarArchive.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Tar\TarBuffer.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Tar\TarEntry.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Tar\TarException.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Tar\TarHeader.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Tar\TarInputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Tar\TarOutputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\Deflater.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\DeflaterConstants.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\DeflaterEngine.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\DeflaterHuffman.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\DeflaterPending.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\Inflater.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\InflaterDynHeader.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\InflaterHuffmanTree.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\PendingBuffer.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\Streams\DeflaterOutputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\Streams\InflaterInputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\Streams\OutputWindow.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\Compression\Streams\StreamManipulator.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\FastZip.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\IEntryFactory.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\WindowsNameTransform.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipConstants.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipEntry.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipEntryFactory.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipException.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipExtraData.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipFile.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipHelperStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipInputStream.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipNameTransform.cs" />
+    <Compile Include="ICSharpCode.SharpZipLib\Zip\ZipOutputStream.cs" />
+    <Compile Include="LEDCONTROLForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LEDCONTROLForm.Designer.cs">
+      <DependentUpon>LEDCONTROLForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocationViewFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationViewFrom.Designer.cs">
+      <DependentUpon>LocationViewFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageAutoClose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageAutoClose.Designer.cs">
+      <DependentUpon>MessageAutoClose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MListItem.Designer.cs">
+      <DependentUpon>MListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MListItem2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MListItem2.Designer.cs">
+      <DependentUpon>MListItem2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FileModel.cs" />
+    <Compile Include="Model\FileTcpClienModel.cs" />
+    <Compile Include="Model\FileUpdataModel.cs" />
+    <Compile Include="Model\FromMainModel.cs" />
+    <Compile Include="Model\LEDCONTROL_model.cs" />
+    <Compile Include="Model\LocationViewModel.cs" />
+    <Compile Include="Model\NODESearchModel.cs" />
+    <Compile Include="Model\PeoplePowerModel.cs" />
+    <Compile Include="Model\QuyuAutoChange.cs" />
+    <Compile Include="Model\SetDataResuleView.cs" />
+    <Compile Include="MoveableList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MoveableList.Designer.cs">
+      <DependentUpon>MoveableList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoveThreeAbleList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MoveThreeAbleList.Designer.cs">
+      <DependentUpon>MoveThreeAbleList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NODESearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NODESearchForm.Designer.cs">
+      <DependentUpon>NODESearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NPOI\DDF\AbstractEscherOptRecord.cs" />
+    <Compile Include="NPOI\DDF\DefaultEscherRecordFactory.cs" />
+    <Compile Include="NPOI\DDF\EscherArrayProperty.cs" />
+    <Compile Include="NPOI\DDF\EscherBitmapBlip.cs" />
+    <Compile Include="NPOI\DDF\EscherBlipRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherBoolProperty.cs" />
+    <Compile Include="NPOI\DDF\EscherBSERecord.cs" />
+    <Compile Include="NPOI\DDF\EscherChildAnchorRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherClientAnchorRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherClientDataRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherColorRef.cs" />
+    <Compile Include="NPOI\DDF\EscherComplexProperty.cs" />
+    <Compile Include="NPOI\DDF\EscherContainerRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherDggRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherDgRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherDump.cs" />
+    <Compile Include="NPOI\DDF\EscherMetafileBlip.cs" />
+    <Compile Include="NPOI\DDF\EscherOptRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherPictBlip.cs" />
+    <Compile Include="NPOI\DDF\EscherProperties.cs" />
+    <Compile Include="NPOI\DDF\EscherProperty.cs" />
+    <Compile Include="NPOI\DDF\EscherPropertyFactory.cs" />
+    <Compile Include="NPOI\DDF\EscherPropertyMetaData.cs" />
+    <Compile Include="NPOI\DDF\EscherRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherRecordFactory.cs" />
+    <Compile Include="NPOI\DDF\EscherRGBProperty.cs" />
+    <Compile Include="NPOI\DDF\EscherSerializationListener.cs" />
+    <Compile Include="NPOI\DDF\EscherShapePathProperty.cs" />
+    <Compile Include="NPOI\DDF\EscherSimpleProperty.cs" />
+    <Compile Include="NPOI\DDF\EscherSpgrRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherSplitMenuColorsRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherSpRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherTertiaryOptRecord.cs" />
+    <Compile Include="NPOI\DDF\EscherTextboxRecord.cs" />
+    <Compile Include="NPOI\DDF\NullEscherSerializationListener.cs" />
+    <Compile Include="NPOI\DDF\UnknownEscherRecord.cs" />
+    <Compile Include="NPOI\EncryptedDocumentException.cs" />
+    <Compile Include="NPOI\GlobalSuppressions.cs" />
+    <Compile Include="NPOI\HPSF\Array.cs" />
+    <Compile Include="NPOI\HPSF\Blob.cs" />
+    <Compile Include="NPOI\HPSF\ClipboardData.cs" />
+    <Compile Include="NPOI\HPSF\CodePageString.cs" />
+    <Compile Include="NPOI\HPSF\Constants.cs" />
+    <Compile Include="NPOI\HPSF\Currency.cs" />
+    <Compile Include="NPOI\HPSF\CustomProperties.cs" />
+    <Compile Include="NPOI\HPSF\CustomProperty.cs" />
+    <Compile Include="NPOI\HPSF\Date.cs" />
+    <Compile Include="NPOI\HPSF\Decimal.cs" />
+    <Compile Include="NPOI\HPSF\DocumentSummaryInformation.cs" />
+    <Compile Include="NPOI\HPSF\Extractor\HPSFPropertiesExtractor.cs" />
+    <Compile Include="NPOI\HPSF\Filetime.cs" />
+    <Compile Include="NPOI\HPSF\GUID.cs" />
+    <Compile Include="NPOI\HPSF\HPSFException.cs" />
+    <Compile Include="NPOI\HPSF\HPSFPropertiesOnlyDocument.cs" />
+    <Compile Include="NPOI\HPSF\HPSFRuntimeException.cs" />
+    <Compile Include="NPOI\HPSF\IllegalPropertySetDataException.cs" />
+    <Compile Include="NPOI\HPSF\IllegalVariantTypeException.cs" />
+    <Compile Include="NPOI\HPSF\IndirectPropertyName.cs" />
+    <Compile Include="NPOI\HPSF\MarkUnsupportedException.cs" />
+    <Compile Include="NPOI\HPSF\MissingSectionException.cs" />
+    <Compile Include="NPOI\HPSF\MutableProperty.cs" />
+    <Compile Include="NPOI\HPSF\MutablePropertySet.cs" />
+    <Compile Include="NPOI\HPSF\MutableSection.cs" />
+    <Compile Include="NPOI\HPSF\NoFormatIDException.cs" />
+    <Compile Include="NPOI\HPSF\NoPropertySetStreamException.cs" />
+    <Compile Include="NPOI\HPSF\NoSingleSectionException.cs" />
+    <Compile Include="NPOI\HPSF\Property.cs" />
+    <Compile Include="NPOI\HPSF\PropertySet.cs" />
+    <Compile Include="NPOI\HPSF\PropertySetFactory.cs" />
+    <Compile Include="NPOI\HPSF\ReadingNotSupportedException.cs" />
+    <Compile Include="NPOI\HPSF\Section.cs" />
+    <Compile Include="NPOI\HPSF\SpecialPropertySet.cs" />
+    <Compile Include="NPOI\HPSF\SummaryInformation.cs" />
+    <Compile Include="NPOI\HPSF\Thumbnail.cs" />
+    <Compile Include="NPOI\HPSF\TypedPropertyValue.cs" />
+    <Compile Include="NPOI\HPSF\TypeWriter.cs" />
+    <Compile Include="NPOI\HPSF\UnexpectedPropertySetTypeException.cs" />
+    <Compile Include="NPOI\HPSF\UnicodeString.cs" />
+    <Compile Include="NPOI\HPSF\UnsupportedEncodingException.cs" />
+    <Compile Include="NPOI\HPSF\UnsupportedVariantTypeException.cs" />
+    <Compile Include="NPOI\HPSF\Util.cs" />
+    <Compile Include="NPOI\HPSF\Variant.cs" />
+    <Compile Include="NPOI\HPSF\VariantBool.cs" />
+    <Compile Include="NPOI\HPSF\VariantSupport.cs" />
+    <Compile Include="NPOI\HPSF\VariantTypeException.cs" />
+    <Compile Include="NPOI\HPSF\Vector.cs" />
+    <Compile Include="NPOI\HPSF\VersionedStream.cs" />
+    <Compile Include="NPOI\HPSF\Wellknown\PropertyIDMap.cs" />
+    <Compile Include="NPOI\HPSF\Wellknown\SectionIDMap.cs" />
+    <Compile Include="NPOI\HPSF\WritingNotSupportedException.cs" />
+    <Compile Include="NPOI\HSSF\EventModel\ERFListener.cs" />
+    <Compile Include="NPOI\HSSF\EventModel\EventRecordFactory.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\AbortableHSSFListener.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\DummyRecord\DummyRecordBase.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\DummyRecord\LastCellOfRowDummyRecord.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\DummyRecord\MissingCellDummyRecord.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\DummyRecord\MissingRowDummyRecord.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\EventWorkbookBuilder.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\FormatTrackingHSSFListener.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\HSSFEventFactory.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\HSSFListener.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\HSSFRecordStream.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\HSSFRequest.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\HSSFUserException.cs" />
+    <Compile Include="NPOI\HSSF\EventUserModel\MissingRecordAwareHSSFListener.cs" />
+    <Compile Include="NPOI\HSSF\Extractor\EventBasedExcelExtractor.cs" />
+    <Compile Include="NPOI\HSSF\Extractor\ExcelExtractor.cs" />
+    <Compile Include="NPOI\HSSF\Extractor\OldExcelExtractor.cs" />
+    <Compile Include="NPOI\HSSF\Model\AbstractShape.cs" />
+    <Compile Include="NPOI\HSSF\Model\ComboboxShape.cs" />
+    <Compile Include="NPOI\HSSF\Model\CommentShape.cs" />
+    <Compile Include="NPOI\HSSF\Model\ConvertAnchor.cs" />
+    <Compile Include="NPOI\HSSF\Model\DrawingManager.cs" />
+    <Compile Include="NPOI\HSSF\Model\DrawingManager2.cs" />
+    <Compile Include="NPOI\HSSF\Model\HSSFFormulaParser.cs" />
+    <Compile Include="NPOI\HSSF\Model\InternalSheet.cs" />
+    <Compile Include="NPOI\HSSF\Model\InternalWorkbook.cs" />
+    <Compile Include="NPOI\HSSF\Model\LineShape.cs" />
+    <Compile Include="NPOI\HSSF\Model\LinkTable.cs" />
+    <Compile Include="NPOI\HSSF\Model\ParseNode.cs" />
+    <Compile Include="NPOI\HSSF\Model\PictureShape.cs" />
+    <Compile Include="NPOI\HSSF\Model\PolygonShape.cs" />
+    <Compile Include="NPOI\HSSF\Model\RecordOrderer.cs" />
+    <Compile Include="NPOI\HSSF\Model\RecordStream.cs" />
+    <Compile Include="NPOI\HSSF\Model\RowBlocksReader.cs" />
+    <Compile Include="NPOI\HSSF\Model\SimpleFilledShape.cs" />
+    <Compile Include="NPOI\HSSF\Model\TextboxShape.cs" />
+    <Compile Include="NPOI\HSSF\Model\WorkbookRecordList.cs" />
+    <Compile Include="NPOI\HSSF\OldExcelFormatException.cs" />
+    <Compile Include="NPOI\HSSF\Record\AbstractEscherHolderRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\CFRecordsAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\ChartSubstreamRecordAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\AttachedLabelAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\AxesAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\AxisParentAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\AXMAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\AXSAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\ChartFormatsAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\ChartRecordAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\ChartSheetAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\CRTAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\CrtMlFrtAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\DatAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\DFTTextAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\DropBarAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\DVAxisAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\FontListAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\FrameAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\GelFrameAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\IVAxisAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\LDAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\SeriesAxisAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\SeriesDataAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\SeriesFormatAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\ShapePropsAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\SSAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\Chart\TextPropsAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\ColumnInfoRecordsAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\ConditionalFormattingTable.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\CustomViewSettingsRecordAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\DataValidityTable.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\FormulaRecordAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\MergedCellsTable.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\PageSettingsBlock.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\PLSAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\RecordAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\RowRecordsAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\SharedValueManager.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\ValueRecordsAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Aggregates\WorksheetProtectionBlock.cs" />
+    <Compile Include="NPOI\HSSF\Record\ArrayRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\AutoFilter\AutoFilterInfoRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\AutoFilter\AutoFilterRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\AutoFilter\DOPER.cs" />
+    <Compile Include="NPOI\HSSF\Record\AutoFilter\FilterModeRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\BackupRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\BiffHeaderInput.cs" />
+    <Compile Include="NPOI\HSSF\Record\BlankRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\BOFRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\BookBoolRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\BoolErrRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\BottomMarginRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\BoundSheetRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\CalcCountRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\CalcModeRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\CellRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\CellValueRecordInterface.cs" />
+    <Compile Include="NPOI\HSSF\Record\CFHeaderRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\CFRuleRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\CF\BorderFormatting.cs" />
+    <Compile Include="NPOI\HSSF\Record\CF\CellRangeUtil.cs" />
+    <Compile Include="NPOI\HSSF\Record\CF\FontFormatting.cs" />
+    <Compile Include="NPOI\HSSF\Record\CF\PatternFormatting.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\AlRunsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\AreaFormatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\AreaRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\AttachedLabelRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\AxcExtRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\AxesUsedRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\AxisLineRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\AxisParentRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\AxisRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\BarRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\BeginRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\BopPopCustomRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\BopPopRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\BRAIRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\CatLabRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\CatSerRangeRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\Chart3DBarShapeRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\Chart3dRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ChartEndBlockRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ChartEndObjectRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ChartFormatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ChartFRTInfoRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ChartRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ChartStartBlockRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ChartStartObjectRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\CrtLayout12ARecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\CrtLayout12Record.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\CrtLineRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\CrtLinkRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\CrtMlFrtContinueRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\CrtMlFrtRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\DataFormatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\DataLabelExtensionRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\DataLabExtContentsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\DataLabExtRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\DatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\DefaultTextRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\DropBarRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\EndBlockRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\EndRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\Fbi2Record.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\FbiRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\FontBasisRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\FontXRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\FrameRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\FrtFontListRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\GelFrameRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\IFmtRecordRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\LegendExceptionRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\LegendRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\LineFormatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\MarkerFormatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\NumberFormatIndexRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ObjectKind.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ObjectLinkRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\PicFRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\PieFormatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\PieRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\PlotAreaRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\PlotGrowthRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\PosRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\RadarAreaRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\RadarRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\RichTextStreamRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ScatterRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SerAuxErrBarRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SerAuxTrendRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SerFmtRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SeriesChartGroupIndexRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SeriesIndexRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SeriesLabelsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SeriesListRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SeriesRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SeriesTextRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SeriesToChartGroupRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SerParentRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SerToCrtRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ShapePropsStreamRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ShtPropsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\StartBlockRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\SurfRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\TextPropsStreamRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\TextRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\TickRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\UnitsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\ValueRangeRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Chart\YMultRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\CodepageRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ColumnInfoRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Common\FeatFormulaErr2.cs" />
+    <Compile Include="NPOI\HSSF\Record\Common\FeatProtection.cs" />
+    <Compile Include="NPOI\HSSF\Record\Common\FeatSmartTag.cs" />
+    <Compile Include="NPOI\HSSF\Record\Common\FtrHeader.cs" />
+    <Compile Include="NPOI\HSSF\Record\Common\SharedFeature.cs" />
+    <Compile Include="NPOI\HSSF\Record\Common\UnicodeString.cs" />
+    <Compile Include="NPOI\HSSF\Record\ContinueFrt12Record.cs" />
+    <Compile Include="NPOI\HSSF\Record\ContinueRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Cont\ContinuableRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Cont\ContinuableRecordInput.cs" />
+    <Compile Include="NPOI\HSSF\Record\Cont\ContinuableRecordOutput.cs" />
+    <Compile Include="NPOI\HSSF\Record\Cont\UnknownLengthRecordOutput.cs" />
+    <Compile Include="NPOI\HSSF\Record\CountryRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\CRNCountRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\CRNRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Crypto\Biff8DecryptingStream.cs" />
+    <Compile Include="NPOI\HSSF\Record\Crypto\Biff8EncryptionKey.cs" />
+    <Compile Include="NPOI\HSSF\Record\Crypto\Biff8RC4.cs" />
+    <Compile Include="NPOI\HSSF\Record\Crypto\RC4.cs" />
+    <Compile Include="NPOI\HSSF\Record\CustomField.cs" />
+    <Compile Include="NPOI\HSSF\Record\DateWindow1904Record.cs" />
+    <Compile Include="NPOI\HSSF\Record\DBCellRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DConRefRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DefaultColWidthRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DefaultRowHeightRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DeltaRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DimensionsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DrawingGroupRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DrawingRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DrawingRecordForBiffViewer.cs" />
+    <Compile Include="NPOI\HSSF\Record\DrawingSelectionRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DSFRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DVALRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\DVRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\EOFRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\EscherAggregate.cs" />
+    <Compile Include="NPOI\HSSF\Record\Excel9FileRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ExtendedFormatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ExternalNameRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ExternSheetRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ExternSheetSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ExtSSTInfoSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ExtSSTRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FeatHdrRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FeatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FilePassRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FileSharingRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FnGroupCountRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FontRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FooterRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FormatRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FormulaRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FtCblsSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FtCfSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\FtPioGrbitSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\GridsetRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\GutsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\HCenterRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\HeaderFooterBase.cs" />
+    <Compile Include="NPOI\HSSF\Record\HeaderFooterRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\HeaderRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\HideObjRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\HorizontalPageBreakRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\HyperlinkRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\IndexRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\InterfaceEndRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\InterfaceHdrRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\IterationRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\LabelRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\LabelSSTRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\LeftMarginRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\LinkedDataFormulaField.cs" />
+    <Compile Include="NPOI\HSSF\Record\Margin.cs" />
+    <Compile Include="NPOI\HSSF\Record\MergeCellsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\MMSRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\MulBlankRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\MulRKRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\NameCommentRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\NameRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\NoteRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\NumberRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ObjectProtectRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ObjRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\OldCellRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\OldFormulaRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\OldLabelRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\OldSheetRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\OldStringRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PageBreakRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PaletteRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PaneRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PasswordRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PasswordRev4Record.cs" />
+    <Compile Include="NPOI\HSSF\Record\PivotTable\DataItemRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PivotTable\ExtendedPivotTableViewFieldsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PivotTable\PageItemRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PivotTable\StreamIDRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PivotTable\ViewDefinitionRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PivotTable\ViewFieldsRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PivotTable\ViewSourceRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PrecisionRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PrintGridlinesRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PrintHeadersRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PrintSetupRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\PrintSizeRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ProtectionRev4Record.cs" />
+    <Compile Include="NPOI\HSSF\Record\ProtectRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\RecalcIdRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\Record.cs" />
+    <Compile Include="NPOI\HSSF\Record\RecordBase.cs" />
+    <Compile Include="NPOI\HSSF\Record\RecordFactory.cs" />
+    <Compile Include="NPOI\HSSF\Record\RecordFactoryInputStream.cs" />
+    <Compile Include="NPOI\HSSF\Record\RecordInputStream.cs" />
+    <Compile Include="NPOI\HSSF\Record\RefModeRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\RefreshAllRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\RightMarginRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\RKRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\RowDataRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\RowRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SaveRecalcRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\ScenarioProtectRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SCLRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SelectionRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SharedFormulaRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SharedValueRecordBase.cs" />
+    <Compile Include="NPOI\HSSF\Record\SheetExtRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SSTDeserializer.cs" />
+    <Compile Include="NPOI\HSSF\Record\SSTRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SSTSerializer.cs" />
+    <Compile Include="NPOI\HSSF\Record\StandardRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\StringRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\StyleRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SubRecord\CommonObjectDataSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SubRecord\EmbeddedObjectRefSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SubRecord\EndSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SubRecord\GroupMarkerSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SubRecord\LbsDataSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SubRecord\NoteStructureSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SubRecord\ScrollableObjectSubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SubRecord\SubRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\SupBookRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\TabIdRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\TableRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\TableStylesRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\TextObjectRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\TextOrientation.cs" />
+    <Compile Include="NPOI\HSSF\Record\TopMarginRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\UncalcedRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\UnknownRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\UserSViewBegin.cs" />
+    <Compile Include="NPOI\HSSF\Record\UserSViewEnd.cs" />
+    <Compile Include="NPOI\HSSF\Record\UseSelFSRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\VCenterRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\VerticalPageBreakRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\WindowOneRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\WindowProtectRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\WindowTwoRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\WriteAccessRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\WriteProtectRecord.cs" />
+    <Compile Include="NPOI\HSSF\Record\WSBoolRecord.cs" />
+    <Compile Include="NPOI\HSSF\Structure.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\DVConstraint.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\EscherGraphics.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\EvaluationCycleDetector.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\EvaluationCycleDetectorManager.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\FontDetails.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HeaderFooter.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFAnchor.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFAutoFilter.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFBorderFormatting.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFCell.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFCellStyle.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFChart.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFChildAnchor.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFClientAnchor.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFCombobox.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFComment.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFConditionalFormatting.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFConditionalFormattingRule.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFCreationHelper.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFDataFormat.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFDataFormatter.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFDataValidation.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFDataValidationHelper.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFDateUtil.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFErrorConstants.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFEvaluationCell.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFEvaluationSheet.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFEvaluationWorkbook.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFFont.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFFontFormatting.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFFooter.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFFormulaEvaluator.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFHeader.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFHyperlink.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFName.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFObjectData.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFOptimiser.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFPalette.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFPatriarch.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFPatternFormatting.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFPicture.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFPictureData.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFPolygon.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFPrintSetup.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFRichTextString.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFRow.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFShape.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFShapeContainer.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFShapeFactory.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFShapeGroup.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFShapeTypes.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFSheet.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFSheetConditionalFormatting.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFSimpleShape.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFTextbox.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\HSSFWorkbook.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\OperationEvaluatorFactory.cs" />
+    <Compile Include="NPOI\HSSF\UserModel\StaticFontMetrics.cs" />
+    <Compile Include="NPOI\HSSF\Util\GUID.cs" />
+    <Compile Include="NPOI\HSSF\Util\HSSFCellRangeAddress.cs" />
+    <Compile Include="NPOI\HSSF\Util\HSSFCellUtil.cs" />
+    <Compile Include="NPOI\HSSF\Util\HSSFColor.cs" />
+    <Compile Include="NPOI\HSSF\Util\HSSFRegionUtil.cs" />
+    <Compile Include="NPOI\HSSF\Util\LazilyConcatenatedByteArray.cs" />
+    <Compile Include="NPOI\HSSF\Util\RangeAddress.cs" />
+    <Compile Include="NPOI\HSSF\Util\RKUtil.cs" />
+    <Compile Include="NPOI\OldFileFormatException.cs" />
+    <Compile Include="NPOI\POIDocument.cs" />
+    <Compile Include="NPOI\POIFS\Common\POIFSBigBlockSize.cs" />
+    <Compile Include="NPOI\POIFS\Common\POIFSConstants.cs" />
+    <Compile Include="NPOI\POIFS\Dev\POIFSLister.cs" />
+    <Compile Include="NPOI\POIFS\Dev\POIFSViewable.cs" />
+    <Compile Include="NPOI\POIFS\Dev\POIFSViewEngine.cs" />
+    <Compile Include="NPOI\POIFS\Dev\POIFSViewer.cs" />
+    <Compile Include="NPOI\POIFS\EventFileSystem\POIFSReader.cs" />
+    <Compile Include="NPOI\POIFS\EventFileSystem\POIFSReaderEvent.cs" />
+    <Compile Include="NPOI\POIFS\EventFileSystem\POIFSReaderEventArgs.cs" />
+    <Compile Include="NPOI\POIFS\EventFileSystem\POIFSReaderListener.cs" />
+    <Compile Include="NPOI\POIFS\EventFileSystem\POIFSReaderRegistry.cs" />
+    <Compile Include="NPOI\POIFS\EventFileSystem\POIFSWriterEvent.cs" />
+    <Compile Include="NPOI\POIFS\EventFileSystem\POIFSWriterEventArgs.cs" />
+    <Compile Include="NPOI\POIFS\EventFileSystem\POIFSWriterListener.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\BATManaged.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\BlockStore.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\CloseIgnoringInputStream.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\DirectoryEntry.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\DirectoryNode.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\DocumentDescriptor.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\DocumentEntry.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\DocumentInputStream.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\DocumentNode.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\DocumentOutputStream.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\Entry.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\EntryNode.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\EntryUtils.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\FilteringDirectoryNode.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\NDocumentInputStream.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\NDocumentOutputStream.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\NotOLE2FileException.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\NPOIFSDocument.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\NPOIFSFileSystem.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\NPOIFSMiniStore.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\NPOIFSStream.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\ODocumentInputStream.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\OfficeXmlFileException.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\Ole10Native.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\Ole10NativeException.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\POIFSDocument.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\POIFSDocumentPath.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\POIFSDocumentReader.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\POIFSDocumentWriter.cs" />
+    <Compile Include="NPOI\POIFS\FileSystem\POIFSFileSystem.cs" />
+    <Compile Include="NPOI\POIFS\NIO\ByteArrayBackedDataSource.cs" />
+    <Compile Include="NPOI\POIFS\NIO\DataSource.cs" />
+    <Compile Include="NPOI\POIFS\NIO\FileBackedDataSource.cs" />
+    <Compile Include="NPOI\POIFS\property\Child.cs" />
+    <Compile Include="NPOI\POIFS\property\DirectoryProperty.cs" />
+    <Compile Include="NPOI\POIFS\property\DocumentProperty.cs" />
+    <Compile Include="NPOI\POIFS\property\NPropertyTable.cs" />
+    <Compile Include="NPOI\POIFS\property\Parent.cs" />
+    <Compile Include="NPOI\POIFS\property\Property.cs" />
+    <Compile Include="NPOI\POIFS\property\PropertyConstants.cs" />
+    <Compile Include="NPOI\POIFS\property\PropertyFactory.cs" />
+    <Compile Include="NPOI\POIFS\property\PropertyTable.cs" />
+    <Compile Include="NPOI\POIFS\property\PropertyTableBase.cs" />
+    <Compile Include="NPOI\POIFS\property\RootProperty.cs" />
+    <Compile Include="NPOI\POIFS\Storage\BATBlock.cs" />
+    <Compile Include="NPOI\POIFS\Storage\BigBlock.cs" />
+    <Compile Include="NPOI\POIFS\Storage\BlockAllocationTableReader.cs" />
+    <Compile Include="NPOI\POIFS\Storage\BlockAllocationTableWriter.cs" />
+    <Compile Include="NPOI\POIFS\Storage\BlockList.cs" />
+    <Compile Include="NPOI\POIFS\Storage\BlockListImpl.cs" />
+    <Compile Include="NPOI\POIFS\Storage\BlockWritable.cs" />
+    <Compile Include="NPOI\POIFS\Storage\DataInputBlock.cs" />
+    <Compile Include="NPOI\POIFS\Storage\DocumentBlock.cs" />
+    <Compile Include="NPOI\POIFS\Storage\HeaderBlock.cs" />
+    <Compile Include="NPOI\POIFS\Storage\HeaderBlockConstants.cs" />
+    <Compile Include="NPOI\POIFS\Storage\HeaderBlockReader.cs" />
+    <Compile Include="NPOI\POIFS\Storage\HeaderBlockWriter.cs" />
+    <Compile Include="NPOI\POIFS\Storage\ListManagedBlock.cs" />
+    <Compile Include="NPOI\POIFS\Storage\PropertyBlock.cs" />
+    <Compile Include="NPOI\POIFS\Storage\RawDataBlock.cs" />
+    <Compile Include="NPOI\POIFS\Storage\RawDataBlockList.cs" />
+    <Compile Include="NPOI\POIFS\Storage\SmallBlockTableReader.cs" />
+    <Compile Include="NPOI\POIFS\Storage\SmallBlockTableWriter.cs" />
+    <Compile Include="NPOI\POIFS\Storage\SmallDocumentBlock.cs" />
+    <Compile Include="NPOI\POIFS\Storage\SmallDocumentBlockList.cs" />
+    <Compile Include="NPOI\POIOLE2TextExtractor.cs" />
+    <Compile Include="NPOI\POITextExtractor.cs" />
+    <Compile Include="NPOI\POIUtils.cs" />
+    <Compile Include="NPOI\Properties\AssemblyInfo.cs" />
+    <Compile Include="NPOI\SS\Extractor\ExcelExtractor.cs" />
+    <Compile Include="NPOI\SS\Format\CellDateFormatter.cs" />
+    <Compile Include="NPOI\SS\Format\CellElapsedFormatter.cs" />
+    <Compile Include="NPOI\SS\Format\CellFormat.cs" />
+    <Compile Include="NPOI\SS\Format\CellFormatCondition.cs" />
+    <Compile Include="NPOI\SS\Format\CellFormatPart.cs" />
+    <Compile Include="NPOI\SS\Format\CellFormatResult.cs" />
+    <Compile Include="NPOI\SS\Format\CellFormatter.cs" />
+    <Compile Include="NPOI\SS\Format\CellFormatType.cs" />
+    <Compile Include="NPOI\SS\Format\CellGeneralFormatter.cs" />
+    <Compile Include="NPOI\SS\Format\CellNumberFormatter.cs" />
+    <Compile Include="NPOI\SS\Format\CellTextFormatter.cs" />
+    <Compile Include="NPOI\SS\Format\SimpleFraction.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\AnalysisToolPak.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\ArgumentsEvaluator.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\DateParser.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\IfError.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\MRound.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\NetworkdaysFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\ParityFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\RandBetween.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\WorkdayCalculator.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\WorkdayFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\YearFrac.cs" />
+    <Compile Include="NPOI\SS\Formula\Atp\YearFracCalculator.cs" />
+    <Compile Include="NPOI\SS\Formula\CellCacheEntry.cs" />
+    <Compile Include="NPOI\SS\Formula\CellEvaluationFrame.cs" />
+    <Compile Include="NPOI\SS\Formula\CollaboratingWorkbooksEnvironment.cs" />
+    <Compile Include="NPOI\SS\Formula\Constant\ConstantValueParser.cs" />
+    <Compile Include="NPOI\SS\Formula\Constant\ErrorConstant.cs" />
+    <Compile Include="NPOI\SS\Formula\EvaluationCache.cs" />
+    <Compile Include="NPOI\SS\Formula\EvaluationCell.cs" />
+    <Compile Include="NPOI\SS\Formula\EvaluationName.cs" />
+    <Compile Include="NPOI\SS\Formula\EvaluationSheet.cs" />
+    <Compile Include="NPOI\SS\Formula\EvaluationTracker.cs" />
+    <Compile Include="NPOI\SS\Formula\EvaluationWorkbook.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\AreaEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\AreaEvalBase.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\BlankEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\BoolEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\ConcatEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\ErrorEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\Eval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\EvaluationException.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\ExternalNameEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\Forked\ForkedEvaluationCell.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\Forked\ForkedEvaluationSheet.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\Forked\ForkedEvaluationWorkbook.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\Forked\ForkedEvaluator.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\FunctionEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\FunctionNameEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\IntersectionEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\MissingArgEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\NotImplementedFunctionException.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\NumberEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\NumericValueEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\OperandResolver.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\OperationEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\PercentEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RangeEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RefEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RefEvalBase.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RelationalOperationEval\EqualEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RelationalOperationEval\GreaterEqualEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RelationalOperationEval\GreaterThanEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RelationalOperationEval\LessEqualEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RelationalOperationEval\LessThanEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RelationalOperationEval\NotEqualEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\RelationalOperationEval\RelationalOperationEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\StringEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\StringValueEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\TwoOperandNumeric\AddEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\TwoOperandNumeric\DivideEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\TwoOperandNumeric\MultiplyEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\TwoOperandNumeric\PowerEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\TwoOperandNumeric\SubtractEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\TwoOperandNumeric\TwoOperandNumericOperation.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\UnaryMinusEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\UnaryPlusEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Eval\ValueEval.cs" />
+    <Compile Include="NPOI\SS\Formula\ExternSheetReferenceToken.cs" />
+    <Compile Include="NPOI\SS\Formula\Formula.cs" />
+    <Compile Include="NPOI\SS\Formula\FormulaCellCache.cs" />
+    <Compile Include="NPOI\SS\Formula\FormulaCellCacheEntry.cs" />
+    <Compile Include="NPOI\SS\Formula\FormulaCellCacheEntrySet.cs" />
+    <Compile Include="NPOI\SS\Formula\FormulaParser.cs" />
+    <Compile Include="NPOI\SS\Formula\FormulaParsingWorkbook.cs" />
+    <Compile Include="NPOI\SS\Formula\FormulaRenderer.cs" />
+    <Compile Include="NPOI\SS\Formula\FormulaRenderingWorkbook.cs" />
+    <Compile Include="NPOI\SS\Formula\FormulaType.cs" />
+    <Compile Include="NPOI\SS\Formula\FormulaUsedBlankCellSet.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Address.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\AggregateFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\BaseNumberUtils.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Bin2Dec.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Boolean\And.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Boolean\BooleanFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Boolean\False.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Boolean\Not.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Boolean\Or.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Boolean\True.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\CalendarFieldFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Ceiling.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Choose.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Code.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Column.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Columns.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Combin.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Complex.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Count.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Counta.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Countblank.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Countif.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Countifs.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\CountUtils.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\DateFunc.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Days360.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Dec2Bin.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Dec2Hex.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Degrees.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Delta.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\DGet.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\DMin.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Dollar.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\DStarRunner.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\EDate.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\EOMonth.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Errortype.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Even.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Exp.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Fact.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\FactDouble.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Finance.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\FinanceFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\FinanceLib.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Fixed.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Fixed0ArgFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Fixed1ArgFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Fixed2ArgFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Fixed3ArgFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Fixed4ArgFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Floor.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\FreeRefFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Function.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Function0Arg.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Function1Arg.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Function2Arg.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Function3Arg.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Function4Arg.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Fv.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Hex2Dec.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Hlookup.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Hyperlink.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\IDStarAlgorithm.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\If.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Imaginary.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\ImReal.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Index.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Indirect.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Int.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Intercept.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\IPMT.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Irr.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\LinearRegressionFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\Isblank.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\Iserr.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\Iserror.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\Islogical.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\Isna.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\Isnontext.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\Isnumber.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\Isref.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\Istext.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Logical\LogicalFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Lookup.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\LookupUtils.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Match.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\MathX.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\MinaMaxa.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Mirr.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Mod.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Mode.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\MultiOperandNumericFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Na.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\NotImplementedFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Now.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Nper.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Npv.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Abs.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Acos.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Acosh.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Asin.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Asinh.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Atan.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Atan2.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Atanh.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Cos.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Cosh.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Ln.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Log.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Log10.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\NumericFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Pi.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Poisson.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Rand.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Round.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Rounddown.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Roundup.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Sin.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Sinh.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Sqrt.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Tan.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Tanh.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Numeric\Trunc.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Oct2Dec.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Odd.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Offset.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Pmt.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Power.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\PPMT.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Pv.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Quotient.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Radians.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Rank.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Rate.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Rept.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Roman.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Row.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Rows.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Sign.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Slope.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\StatsLib.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Subtotal.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Sumif.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Sumifs.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Sumproduct.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Sumx2my2.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Sumx2py2.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Sumxmy2.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\T.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\CHAR.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Clean.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Concatenate.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Exact.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\LeftRight.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Len.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Lower.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Mid.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Proper.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Replace.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\SearchFind.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Substitute.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Text.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\TextFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Trim.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Text\Upper.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\TimeFunc.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Today.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Value.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Var1or2ArgFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Var2or3ArgFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Var3or4ArgFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\Vlookup.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\WeekdayFunc.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\WeekNum.cs" />
+    <Compile Include="NPOI\SS\Formula\Functions\XYNumericFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\Function\FunctionDataBuilder.cs" />
+    <Compile Include="NPOI\SS\Formula\Function\FunctionMetadata.cs" />
+    <Compile Include="NPOI\SS\Formula\Function\FunctionMetadataReader.cs" />
+    <Compile Include="NPOI\SS\Formula\Function\FunctionMetadataRegistry.cs" />
+    <Compile Include="NPOI\SS\Formula\IEvaluationListener.cs" />
+    <Compile Include="NPOI\SS\Formula\ISheetRange.cs" />
+    <Compile Include="NPOI\SS\Formula\IStabilityClassifier.cs" />
+    <Compile Include="NPOI\SS\Formula\LazyAreaEval.cs" />
+    <Compile Include="NPOI\SS\Formula\LazyRefEval.cs" />
+    <Compile Include="NPOI\SS\Formula\NameIdentifier.cs" />
+    <Compile Include="NPOI\SS\Formula\OperandClassTransformer.cs" />
+    <Compile Include="NPOI\SS\Formula\OperationEvaluationContext.cs" />
+    <Compile Include="NPOI\SS\Formula\OperationEvaluatorFactory.cs" />
+    <Compile Include="NPOI\SS\Formula\ParseNode.cs" />
+    <Compile Include="NPOI\SS\Formula\PlainCellCache.cs" />
+    <Compile Include="NPOI\SS\Formula\PlainValueCellCacheEntry.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\AbstractFunctionPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\AddPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Area2DPtgBase.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Area3DPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Area3DPxg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\AreaErrPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\AreaI.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\AreaNPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\AreaPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\AreaPtgBase.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\ArrayPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\AttrPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\BoolPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\ConcatPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\ControlPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Deleted3DPxg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\DeletedArea3DPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\DeletedRef3DPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\DividePtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\EqualPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\ErrPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\ExpPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\ExternSheetNameResolver.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\FormulaShifter.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\FuncPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\FuncVarPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\GreaterEqualPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\GreaterThanPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\IntersectionPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\IntPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\LessEqualPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\LessThanPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\MemAreaPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\MemErrPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\MemFuncPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\MissingArgPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\MultiplyPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\NamePtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\NameXPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\NameXPxg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\NotEqualPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\NumberPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\OperandPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\OperationPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\ParenthesisPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\PercentPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\PowerPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Ptg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Pxg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Pxg3D.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\RangePtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Ref2DPtgBase.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Ref3DPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\Ref3DPxg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\RefErrorPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\RefNPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\RefPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\RefPtgBase.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\ScalarConstantPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\StringPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\SubtractPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\TblPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\UnaryMinusPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\UnaryPlusPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\UnionPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\UnknownPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\PTG\ValueOperatorPtg.cs" />
+    <Compile Include="NPOI\SS\Formula\SharedFormula.cs" />
+    <Compile Include="NPOI\SS\Formula\SheetIdentifier.cs" />
+    <Compile Include="NPOI\SS\Formula\SheetNameFormatter.cs" />
+    <Compile Include="NPOI\SS\Formula\SheetRangeEvaluator.cs" />
+    <Compile Include="NPOI\SS\Formula\SheetRangeIdentifier.cs" />
+    <Compile Include="NPOI\SS\Formula\SheetRefEvaluator.cs" />
+    <Compile Include="NPOI\SS\Formula\ThreeDEval.cs" />
+    <Compile Include="NPOI\SS\Formula\TwoDEval.cs" />
+    <Compile Include="NPOI\SS\Formula\Udf\AggregatingUDFFinder.cs" />
+    <Compile Include="NPOI\SS\Formula\Udf\DefaultUDFFinder.cs" />
+    <Compile Include="NPOI\SS\Formula\Udf\IndexedUDFFinder.cs" />
+    <Compile Include="NPOI\SS\Formula\Udf\UDFFinder.cs" />
+    <Compile Include="NPOI\SS\Formula\UserDefinedFunction.cs" />
+    <Compile Include="NPOI\SS\Formula\WorkbookDependentFormula.cs" />
+    <Compile Include="NPOI\SS\Formula\WorkbookEvaluator.cs" />
+    <Compile Include="NPOI\SS\Formula\WorkbookEvaluatorProvider.cs" />
+    <Compile Include="NPOI\SS\HtmlDocumentFacade.cs" />
+    <Compile Include="NPOI\SS\SpreadsheetVersion.cs" />
+    <Compile Include="NPOI\SS\UserModel\AutoFilter.cs" />
+    <Compile Include="NPOI\SS\UserModel\BorderDiagonal.cs" />
+    <Compile Include="NPOI\SS\UserModel\BorderFormatting.cs" />
+    <Compile Include="NPOI\SS\UserModel\BorderStyle.cs" />
+    <Compile Include="NPOI\SS\UserModel\BuiltinFormats.cs" />
+    <Compile Include="NPOI\SS\UserModel\Cell.cs" />
+    <Compile Include="NPOI\SS\UserModel\CellRange.cs" />
+    <Compile Include="NPOI\SS\UserModel\CellStyle.cs" />
+    <Compile Include="NPOI\SS\UserModel\CellValue.cs" />
+    <Compile Include="NPOI\SS\UserModel\Chart.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\AxisCrossBetween.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\AxisCrosses.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\AxisOrientation.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\AxisPosition.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\AxisTickMark.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ChartAxis.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ChartAxisFactory.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ChartData.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ChartDataFactory.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ChartDataSource.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ChartLegend.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ChartSeries.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\DataSources.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\LayoutMode.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\LayoutTarget.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\LegendPosition.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\LineChartData.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\LineChartSeries.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ManualLayout.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ManuallyPositionable.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ScatterChartData.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ScatterChartSeries.cs" />
+    <Compile Include="NPOI\SS\UserModel\Charts\ValueAxis.cs" />
+    <Compile Include="NPOI\SS\UserModel\ClientAnchor.cs" />
+    <Compile Include="NPOI\SS\UserModel\Color.cs" />
+    <Compile Include="NPOI\SS\UserModel\Comment.cs" />
+    <Compile Include="NPOI\SS\UserModel\ComparisonOperator.cs" />
+    <Compile Include="NPOI\SS\UserModel\ConditionalFormatting.cs" />
+    <Compile Include="NPOI\SS\UserModel\ConditionalFormattingRule.cs" />
+    <Compile Include="NPOI\SS\UserModel\CreationHelper.cs" />
+    <Compile Include="NPOI\SS\UserModel\DataConsolidateFunction.cs" />
+    <Compile Include="NPOI\SS\UserModel\DataFormat.cs" />
+    <Compile Include="NPOI\SS\UserModel\DataFormatter.cs" />
+    <Compile Include="NPOI\SS\UserModel\DataValidation.cs" />
+    <Compile Include="NPOI\SS\UserModel\DataValidationConstraint.cs" />
+    <Compile Include="NPOI\SS\UserModel\DataValidationHelper.cs" />
+    <Compile Include="NPOI\SS\UserModel\DateUtil.cs" />
+    <Compile Include="NPOI\SS\UserModel\Drawing.cs" />
+    <Compile Include="NPOI\SS\UserModel\ErrorConstants.cs" />
+    <Compile Include="NPOI\SS\UserModel\ExcelStyleDateFormatter.cs" />
+    <Compile Include="NPOI\SS\UserModel\FillPattern.cs" />
+    <Compile Include="NPOI\SS\UserModel\Font.cs" />
+    <Compile Include="NPOI\SS\UserModel\FontCharset.cs" />
+    <Compile Include="NPOI\SS\UserModel\FontFamily.cs" />
+    <Compile Include="NPOI\SS\UserModel\FontFormatting.cs" />
+    <Compile Include="NPOI\SS\UserModel\FontScheme.cs" />
+    <Compile Include="NPOI\SS\UserModel\FontUnderline.cs" />
+    <Compile Include="NPOI\SS\UserModel\Footer.cs" />
+    <Compile Include="NPOI\SS\UserModel\FormulaError.cs" />
+    <Compile Include="NPOI\SS\UserModel\FormulaEvaluator.cs" />
+    <Compile Include="NPOI\SS\UserModel\FractionFormat.cs" />
+    <Compile Include="NPOI\SS\UserModel\Header.cs" />
+    <Compile Include="NPOI\SS\UserModel\HeaderFooter.cs" />
+    <Compile Include="NPOI\SS\UserModel\HorizontalAlignment.cs" />
+    <Compile Include="NPOI\SS\UserModel\Hyperlink.cs" />
+    <Compile Include="NPOI\SS\UserModel\LineStyle.cs" />
+    <Compile Include="NPOI\SS\UserModel\Name.cs" />
+    <Compile Include="NPOI\SS\UserModel\PageOrder.cs" />
+    <Compile Include="NPOI\SS\UserModel\PaperSize.cs" />
+    <Compile Include="NPOI\SS\UserModel\PatternFormatting.cs" />
+    <Compile Include="NPOI\SS\UserModel\Picture.cs" />
+    <Compile Include="NPOI\SS\UserModel\PictureData.cs" />
+    <Compile Include="NPOI\SS\UserModel\PrintCellComments.cs" />
+    <Compile Include="NPOI\SS\UserModel\PrintOrientation.cs" />
+    <Compile Include="NPOI\SS\UserModel\PrintSetup.cs" />
+    <Compile Include="NPOI\SS\UserModel\RichTextString.cs" />
+    <Compile Include="NPOI\SS\UserModel\Row.cs" />
+    <Compile Include="NPOI\SS\UserModel\Shape.cs" />
+    <Compile Include="NPOI\SS\UserModel\ShapeTypes.cs" />
+    <Compile Include="NPOI\SS\UserModel\Sheet.cs" />
+    <Compile Include="NPOI\SS\UserModel\SheetConditionalFormatting.cs" />
+    <Compile Include="NPOI\SS\UserModel\Textbox.cs" />
+    <Compile Include="NPOI\SS\UserModel\VerticalAlignment.cs" />
+    <Compile Include="NPOI\SS\UserModel\Workbook.cs" />
+    <Compile Include="NPOI\SS\Util\AreaReference.cs" />
+    <Compile Include="NPOI\SS\Util\CellRangeAddress.cs" />
+    <Compile Include="NPOI\SS\Util\CellRangeAddress8Bit.cs" />
+    <Compile Include="NPOI\SS\Util\CellRangeAddressBase.cs" />
+    <Compile Include="NPOI\SS\Util\CellRangeAddressList.cs" />
+    <Compile Include="NPOI\SS\Util\CellReference.cs" />
+    <Compile Include="NPOI\SS\Util\CellUtil.cs" />
+    <Compile Include="NPOI\SS\Util\Cellwalk\CellHandler.cs" />
+    <Compile Include="NPOI\SS\Util\Cellwalk\CellWalk.cs" />
+    <Compile Include="NPOI\SS\Util\Cellwalk\CellWalkContext.cs" />
+    <Compile Include="NPOI\SS\Util\DataMarker.cs" />
+    <Compile Include="NPOI\SS\Util\DateFormatConverter.cs" />
+    <Compile Include="NPOI\SS\Util\ExpandedDouble.cs" />
+    <Compile Include="NPOI\SS\Util\Format.cs" />
+    <Compile Include="NPOI\SS\Util\IEEEDouble.cs" />
+    <Compile Include="NPOI\SS\Util\ImageUtils.cs" />
+    <Compile Include="NPOI\SS\Util\MutableFPNumber.cs" />
+    <Compile Include="NPOI\SS\Util\NormalisedDecimal.cs" />
+    <Compile Include="NPOI\SS\Util\NumberComparer.cs" />
+    <Compile Include="NPOI\SS\Util\NumberToTextConverter.cs" />
+    <Compile Include="NPOI\SS\Util\PaneInformation.cs" />
+    <Compile Include="NPOI\SS\Util\Region.cs" />
+    <Compile Include="NPOI\SS\Util\RegionUtil.cs" />
+    <Compile Include="NPOI\SS\Util\SheetBuilder.cs" />
+    <Compile Include="NPOI\SS\Util\SheetReferences.cs" />
+    <Compile Include="NPOI\SS\Util\SheetUtil.cs" />
+    <Compile Include="NPOI\SS\Util\SSCellRange.cs" />
+    <Compile Include="NPOI\SS\Util\WorkbookUtil.cs" />
+    <Compile Include="NPOI\UnsupportedFileFormatException.cs" />
+    <Compile Include="NPOI\Util\Arrays.cs" />
+    <Compile Include="NPOI\Util\AssertFailedException.cs" />
+    <Compile Include="NPOI\Util\BigInteger.cs" />
+    <Compile Include="NPOI\Util\BitField.cs" />
+    <Compile Include="NPOI\Util\BitFieldFactory.cs" />
+    <Compile Include="NPOI\Util\BlockingInputStream.cs" />
+    <Compile Include="NPOI\Util\ByteArrayInputStream.cs" />
+    <Compile Include="NPOI\Util\ByteBuffer.cs" />
+    <Compile Include="NPOI\Util\ByteField.cs" />
+    <Compile Include="NPOI\Util\Character.cs" />
+    <Compile Include="NPOI\Util\ClassID.cs" />
+    <Compile Include="NPOI\Util\CloseIgnoringInputStream.cs" />
+    <Compile Include="NPOI\Util\CodePageUtil.cs" />
+    <Compile Include="NPOI\Util\Collections\EmptyEnumerable.cs" />
+    <Compile Include="NPOI\Util\Collections\HashSet.cs" />
+    <Compile Include="NPOI\Util\Collections\Properties.cs" />
+    <Compile Include="NPOI\Util\Collections\StringTokenizer.cs" />
+    <Compile Include="NPOI\Util\CRC32.cs" />
+    <Compile Include="NPOI\Util\DelayableLittleEndianOutput.cs" />
+    <Compile Include="NPOI\Util\FixedField.cs" />
+    <Compile Include="NPOI\Util\HexDump.cs" />
+    <Compile Include="NPOI\Util\HexRead.cs" />
+    <Compile Include="NPOI\Util\IntegerField.cs" />
+    <Compile Include="NPOI\Util\IntList.cs" />
+    <Compile Include="NPOI\Util\IntMapper.cs" />
+    <Compile Include="NPOI\Util\IOUtils.cs" />
+    <Compile Include="NPOI\Util\LittleEndian.cs" />
+    <Compile Include="NPOI\Util\LittleEndianByteArrayInputStream.cs" />
+    <Compile Include="NPOI\Util\LittleEndianByteArrayOutputStream.cs" />
+    <Compile Include="NPOI\Util\LittleEndianConsts.cs" />
+    <Compile Include="NPOI\Util\LittleEndianInput.cs" />
+    <Compile Include="NPOI\Util\LittleEndianInputStream.cs" />
+    <Compile Include="NPOI\Util\LittleEndianOutput.cs" />
+    <Compile Include="NPOI\Util\LittleEndianOutputStream.cs" />
+    <Compile Include="NPOI\Util\LongField.cs" />
+    <Compile Include="NPOI\Util\LZWDecompresser.cs" />
+    <Compile Include="NPOI\Util\NullLogger.cs" />
+    <Compile Include="NPOI\Util\Number.cs" />
+    <Compile Include="NPOI\Util\Operator.cs" />
+    <Compile Include="NPOI\Util\PngUtils.cs" />
+    <Compile Include="NPOI\Util\POILogFactory.cs" />
+    <Compile Include="NPOI\Util\POILogger.cs" />
+    <Compile Include="NPOI\Util\PushbackStream.cs" />
+    <Compile Include="NPOI\Util\RecordFormatException.cs" />
+    <Compile Include="NPOI\Util\RuntimeException.cs" />
+    <Compile Include="NPOI\Util\ShortField.cs" />
+    <Compile Include="NPOI\Util\ShortList.cs" />
+    <Compile Include="NPOI\Util\StringUtil.cs" />
+    <Compile Include="NPOI\Util\SystemOutLogger.cs" />
+    <Compile Include="NPOI\Util\TempFile.cs" />
+    <Compile Include="NPOI\Util\ULongField.cs" />
+    <Compile Include="NPOI\Util\Units.cs" />
+    <Compile Include="NPOI\WP\UserModel\ICharacterRun.cs" />
+    <Compile Include="NPOI\WP\UserModel\IParagraph.cs" />
+    <Compile Include="PortFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortFrom.Designer.cs">
+      <DependentUpon>PortFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="serchCardFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="serchCardFrom.Designer.cs">
+      <DependentUpon>serchCardFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetCanKaoDianFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetCanKaoDianFrom.Designer.cs">
+      <DependentUpon>SetCanKaoDianFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TcpUtils\AsyncUserToken.cs" />
+    <Compile Include="TcpUtils\BufferManager.cs" />
+    <Compile Include="TcpUtils\SocketEventPool.cs" />
+    <Compile Include="TcpUtils\SocketManager.cs" />
+    <Compile Include="Utils\CiXinUtils.cs" />
+    <Compile Include="FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FromBaseModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\ConfigFileUtils.cs" />
+    <Compile Include="Utils\DataFileUtils.cs" />
+    <Compile Include="Utils\DrivaceType.cs" />
+    <Compile Include="HistoricalTrackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoricalTrackForm.Designer.cs">
+      <DependentUpon>HistoricalTrackForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\HexFileRead.cs" />
+    <Compile Include="Utils\SerialPortUtils.cs" />
+    <Compile Include="Utils\StringUtils.cs" />
+    <Compile Include="Utils\TCPClien.cs" />
+    <Compile Include="Utils\TCPServer.cs" />
+    <Compile Include="Utils\UDPUtils.cs" />
+    <Compile Include="Utils\XwDataUtils.cs" />
+    <Compile Include="Utils\XWUtils.cs" />
+    <Compile Include="WarnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarnForm.Designer.cs">
+      <DependentUpon>WarnForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AllViewShow.resx">
+      <DependentUpon>AllViewShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CanKaoDianView.resx">
+      <DependentUpon>CanKaoDianView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CanShuSetFrom.resx">
+      <DependentUpon>CanShuSetFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDialog.resx">
+      <DependentUpon>FormDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LEDCONTROLForm.resx">
+      <DependentUpon>LEDCONTROLForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationViewFrom.resx">
+      <DependentUpon>LocationViewFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageAutoClose.resx">
+      <DependentUpon>MessageAutoClose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MListItem.resx">
+      <DependentUpon>MListItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MListItem2.resx">
+      <DependentUpon>MListItem2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoveableList.resx">
+      <DependentUpon>MoveableList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoveThreeAbleList.resx">
+      <DependentUpon>MoveThreeAbleList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NODESearchForm.resx">
+      <DependentUpon>NODESearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortFrom.resx">
+      <DependentUpon>PortFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="serchCardFrom.resx">
+      <DependentUpon>serchCardFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetCanKaoDianFrom.resx">
+      <DependentUpon>SetCanKaoDianFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoricalTrackForm.resx">
+      <DependentUpon>HistoricalTrackForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarnForm.resx">
+      <DependentUpon>WarnForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="NPOI\Resources\font_metrics.properties" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\manu_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\quyu_up2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\quyu_down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\start_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\start_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\start_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\start_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\quyu_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\quyu_up1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\manu_down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\manu_up1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\manu_up2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\pc-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\pc-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tag-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\tag-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\localogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\manu_a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\manu_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NPOI\Resources\functionMetadata.txt" />
+    <None Include="Resources\logo1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
