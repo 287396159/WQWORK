@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/item_discovery_cardView"
+        android:layout_width="match_parent"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="#ffffff"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="88dp">
+
+        <TextView
+            android:layout_marginLeft="12dp"
+            android:textColor="#000000"
+            android:text="卡片名稱：5689"
+            android:textSize="26dp"
+            android:id="@+id/item_discovery_drivaceIdText"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="33dp"
+            android:textColor="#000000"
+            android:text="設備類型：text"
+            android:textSize="16dp"
+            android:id="@+id/item_discovery_drivceType"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="56dp"
+            android:textColor="#000000"
+            android:text="text"
+            android:textSize="16dp"
+            android:id="@+id/item_discovery_text"
+            android:clickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
